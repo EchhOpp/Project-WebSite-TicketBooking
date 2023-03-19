@@ -1,0 +1,127 @@
+
+#app {
+    height: 12000px;
+}
+#header{
+    position: relative;
+}
+.header__nav {
+    position: fixed;
+    top: 21px;
+    right: 130px;
+    left: 130px;
+    z-index: 1;
+}
+
+.header__navbar {
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+   
+}
+
+.header__nav-list {
+    display: inline-block;
+}
+
+.header__nav-list {
+    padding: 24px 0 0 48px;
+}
+
+.header__nav-list:hover a {
+    padding-bottom: 3px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.header__nav-list:last-child a {
+    padding: 9px 24px 9px 24px;
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+.header__nav-list:last-child:hover a {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.header__nav-list a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header__navtitle {
+    color: var(--white-color);
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+#header__navtitle-textheading {
+    font-size: 4.5rem;
+}
+
+#header__navtitle-textdescription {
+    font-size: 1.6875rem;
+}
+
+#header__nav-search {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--nav-heading-color);
+    border-radius: 3px
+}
+
+#header__nav-search--inputweek,#header__nav-search--inputname {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-search-button {
+    padding: 24px 68px;
+    color: var(--white-color);
+    border: none;
+    background-color: var(--primary-color);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius : 3px;
+}
+
+.header__nav-search-button:hover {
+    cursor: pointer;
+}
+
+#container__comingevent {
+    text-align: center;
+    font-size: 3.4375rem;
+    font-weight: 550;
+    color: var(--text-black-color );
+    margin: 78px 0;
+}
+
+#container {
+    margin: 0 130px;
+}
+
+.container__product-item {
+    display: block;
+    text-decoration: none;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0 , 0 , 0, 0.1);
+}
+
+.container__product-item--img {
+    padding-top: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
