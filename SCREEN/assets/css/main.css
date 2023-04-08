@@ -110,6 +110,9 @@
 }
 
 #container {
+}
+
+.container__product {
     margin: 0 130px;
 }
 
@@ -124,4 +127,57 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+
+
+/* Band */
+.container__band {
+    position: relative;
+}
+
+#container__band__itwork {
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 550;
+    color: var(--text-black-color );
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-color);
+}
+
+.container__band__button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 32px;
+}
+
+.container__band__button__items {
+    line-height: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container__band__button__item {
+    width: 120px;
+    height: 120px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    font-size: 3.6rem;
+    border: none;
+}
+
+.container__band__button__items_title {
+    color: var(--white-color);
+    font-size: 1.632rem;
+    font-weight: 500;
 }
