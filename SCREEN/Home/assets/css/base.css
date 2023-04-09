@@ -28,6 +28,10 @@ html {
     background-color: #F05B86;
 }
 
+.bg-color-color {
+    background-color: var(--white-color);
+}
+
 .color-fas {
     color: var(--heart-color);
 }
@@ -39,6 +43,7 @@ html {
 .color-white{
     color: var(--white-color);
 }
+
 
 /* Font-size */
 .font-sizebig72 {
