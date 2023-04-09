@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #E72E64;
+    --primary-color: #E20D49;
     --white-color: #fff;
     --nav-heading-color: #b7b6b7;
     --text-black-color: #000;
@@ -14,10 +14,26 @@
 html {
     font-size: 62.5%;
     line-height: 1.6rem; 
-    font-family: 'Asap', sans-serif;
+    font-family: 'Asap', sans-serif; 
     box-sizing: border-box;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+}
+
+/* Color */
+.bg-color-primary{
+    background-color: var(--primary-color);
+}
+.bg-color-extra{
+    background-color: #F05B86;
+}
+
+.color-fas {
+    color: var(--heart-color);
+}
+
+.color-nameandtitle {
+    color: var(--name-product-color);
 }
 
 /* Grid */
@@ -100,4 +116,11 @@ html {
     border-radius: 4px;
     box-shadow: 0 1px 4px 3px rgba(0 , 0 , 0, 0.2);
     border: 2px solid var(--primary-color);
+}
+
+.btn-transfer {
+    border: none;
+    color: var(--white-color);
+    border-radius: 4px;
+    padding: 6px 10px;
 }

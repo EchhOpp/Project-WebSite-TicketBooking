@@ -203,7 +203,7 @@
 .container__band {
     position: relative;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 #container__band__itwork {
@@ -257,6 +257,11 @@
 .top-title-product {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+.top_title-left {
+    line-height: 35px;
 }
