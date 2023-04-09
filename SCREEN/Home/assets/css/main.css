@@ -271,7 +271,7 @@
 
 .container__contactUs {
     position: relative;
-    margin: 60px 130px 0 130px;
+    margin: 60px 130px 55px 130px;
     padding-top: 21.93675%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -304,4 +304,24 @@
     padding: 25px 60px;
     font-weight: 500;
     border-radius: 5px;
+}
+
+/* footer */
+
+#footer {
+    background-color: var(--text-black-color);
+    height: 444px;
+}
+
+.footer__left-top {
+    margin: 0 130px 0 130px;
+}
+
+.footer-cmtSocial {
+    
+}
+
+.img__social {
+    height: 26.4px;
+    padding-right: 14px;
 }
