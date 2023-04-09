@@ -311,7 +311,7 @@
 
 #footer {
     background-color: var(--text-black-color);
-    height: 444px;
+    height: 440px;
     width: 100%;
 }
 
@@ -352,4 +352,14 @@
     text-align: left;
     padding: 10px 100px;
     font-size: 1.25rem;
+}
+.footer_bottom {
+    border-top: 2px solid var(--primary-color);
+    margin: 130px;
+}
+
+.footer_bottom-intro {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
