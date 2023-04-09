@@ -202,6 +202,8 @@
 /* Band */
 .container__band {
     position: relative;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 #container__band__itwork {
@@ -250,3 +252,11 @@
     font-weight: 500;
 }
 
+/* Featured Events and Recommended */
+
+.top-title-product {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

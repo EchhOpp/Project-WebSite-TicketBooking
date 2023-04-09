@@ -13,9 +13,11 @@
 
 html {
     font-size: 62.5%;
-    line-height: 1.6rem;
+    line-height: 1.6rem; 
     font-family: 'Asap', sans-serif;
     box-sizing: border-box;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
 }
 
 /* Grid */
@@ -27,7 +29,6 @@ html {
 .grid_row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -36,6 +37,12 @@ html {
     padding-left: 20px;
     padding-right: 20px;
     width: 25%;
+}
+
+.grid_col12 {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
 }
 /* margin */
 
