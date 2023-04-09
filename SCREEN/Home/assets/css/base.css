@@ -19,6 +19,10 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
+/* Clear */
+.clear{
+    clear: both;
+}
 
 /* Color */
 .bg-color-primary{
@@ -119,6 +123,7 @@ html {
 .word {
     height: 65px;
     width: 85px;
+    display: block;
 }
 
 .backgroup {
