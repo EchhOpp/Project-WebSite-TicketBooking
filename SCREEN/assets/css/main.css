@@ -1,6 +1,6 @@
 
 #app {
-    height: 12000px;
+
 }
 /* Header */
 #header{
@@ -265,4 +265,14 @@
 
 .top_title-left {
     line-height: 35px;
+}
+
+/* container__contactUs */
+
+.container__contactUs {
+    margin: 60px 130px 0 130px;
+    padding-top: 21.93675%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

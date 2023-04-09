@@ -124,3 +124,9 @@ html {
     border-radius: 4px;
     padding: 6px 10px;
 }
+
+/* container__contactUs */
+
+.container__contactUs {
+    background-image: url("/ADMIN/assets/img/ba");
+}
