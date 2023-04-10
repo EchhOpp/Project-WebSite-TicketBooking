@@ -131,7 +131,7 @@
     margin-bottom: 16px;
 }
 .container_content_col1 {
-    width: 768px;
+    width: 834px;
     margin-top: 20px;
 }
 .container_content_col1_description {
@@ -156,7 +156,7 @@
 }
 
 .container_content_col2 {
-    width: 396px;
+    width: 400px;
     margin: 20px 0 0 20px;
 }
 .description_item1{
@@ -211,4 +211,103 @@
 .description_button_tickets {
     padding: 16px 24px;
     font-size: 1.5rem;
+}
+
+
+
+/* product */
+
+.container_product {
+    margin: 0 130px;
+}
+
+.container_product_header {
+    font-size: 2.448rem;
+    font-weight: 600;
+    vertical-align: middle;
+
+}
+.container_product_ctrol {
+    font-size: 2.448rem;
+    margin-top: 18px;
+}
+.container_product_ctrol i {
+    padding: 8px 12px;
+    background-color: var(--header--color);
+    color: var(--white--color);
+    font-size: 1.7rem;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.container_product_ctrol i:hover {
+    background-color: rgb(226,13,73, 0.6);
+    cursor: pointer;
+}
+
+.container_products {
+}
+
+.container_products_items {
+    border-radius: 5px;
+    box-shadow: 5px 5px 18px #888888;
+}
+.container_products_item{
+    position: relative;
+    text-decoration: none; 
+}
+.product_item--img {
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+.container_product_item-like {
+    position: absolute;
+    top: 300px;
+    left: 23.79px;
+    background-color: var(--white--color);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+}
+
+.container_product_buy {
+    color: var(--black--color);
+    font-weight: 500;
+    margin-top: 32px;
+    line-height: 1.4;
+    padding: 4px 20px;
+}
+.container_product_item-name {
+    font-size: 1.5rem;
+    
+}
+.container_product_item-map {
+    font-size: 1.1rem;
+}
+.container_product_item-time {
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--header--color);
+    margin-top: 8px;
+    background-color: var(--container--color);
+    padding: 8px 12px;
+    margin: 8px 32px 8px 16px;
+    
+}
+.container_product_item-buy {
+    font-size: 1.1rem;
+    padding: 10px 32px 0 10px;
+    color: var(--header--color);
+
+}
+.container_product_item-buy-getticket {
+     border: 1px solid var(--header--color);
+     border-radius: 5px;
+     padding: 5px 12px;
+}
+.container_product_item-buy-price {
+    color: var(--black--color);
+    vertical-align: middle;
+    padding-top: 5px;
 }
