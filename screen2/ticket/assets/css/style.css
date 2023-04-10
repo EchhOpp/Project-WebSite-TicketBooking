@@ -1,0 +1,114 @@
+.main {
+    height: 4000px;
+    position: relative;
+}
+
+#header {
+    position: relative;
+    padding-bottom: 83px;
+}
+
+.header_nav {
+    position: fixed;
+    top: 21px;
+    right: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.world {
+    height: 65px;
+    width: 85px;
+}
+
+.header_navbar {
+    float: right;
+    display: inline-block;
+}
+
+.header-nav-item {
+    display: inline-block;
+    padding: 24px 0 0 48px;
+}
+.header-nav-item:hover a {
+    color: var(--header--color);
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--header--color);
+}
+
+.header-nav-item:last-child {
+    padding: 8px 24px 8px 24px;
+    background-color: var(--header--color);
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+.header-nav-item:last-child a {
+    color: var(--white--color);
+}
+.header-nav-item:last-child:hover a {
+    color: var(--header--color);
+    border: none
+}
+.header-nav-item:last-child:hover {
+    color: var(--header--color);
+    background-color: var(--white--color);
+    border: 2px solid var(--header--color);
+}
+.header-nav-item a {
+    text-decoration: none;
+    color: var(--black--color);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header_img {
+    margin-top: 120px;
+}
+.img_baner {
+   height: 434px;
+}
+
+.header_schedule{
+    margin: 40px 130px 0 130px;
+    position: relative;
+}
+.header_schedule_calender {
+    width: 15%;
+    background-color: var(--header--color);
+}
+
+.header_schedule_info {
+    margin-top: 17px;
+    margin-left: 37px;
+    line-height: 1.6;
+}
+
+.header_info1{
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin: 0;
+}
+.header_info_tt{
+    margin: 0;
+    font-size: 1.755rem;
+    font-weight: 500;
+}
+
+.header_schedule_button {
+    font-size: 1.94rem;
+    position: absolute;
+    left: 838px;
+    top: 50px;
+
+}
+
+.header_schedule_button_getTickes {
+    color: var(--white--color);
+    border: none;
+    background-color: var(--header--color);
+    padding: 18px 104px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(252,178,199);
+    cursor: pointer;
+}

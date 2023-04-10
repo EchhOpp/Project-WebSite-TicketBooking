@@ -1,0 +1,79 @@
+:root {
+    --white--color: #fff;
+    --black--color: #000;
+    --header--color:#e4114d;
+    /* rgba(231, 46, 100, 1) */
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Asap', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_fullWidth {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_col3 {
+    padding-left: -5px;
+    padding-right: -5px;
+    width: 33.33%;
+}
+.grid_col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid_col4{
+    width: 25%;
+    float: left;
+}
+.seatMap {
+    width: 550px;
+    height: 360px;
+    margin-left: 32px;
+}
+.map {
+    width: 355.2px;
+    height: 191.99px;
+    border-radius: 4px;
+}
+.rickeysmiley {
+    width: 192px;
+    height: 191.99px;
+    clip-path: circle(90px at 50% 50%);
+}
+
+.button__buyticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 36px;
+    color: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 3px rgba(0 , 0 , 0, 0.2);
+    border: 2px solid var(--primary-color);
+}
+
+.btn {
+    border: none;
+    color: var(--white-color);
+}
