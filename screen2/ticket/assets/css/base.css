@@ -2,6 +2,7 @@
     --white--color: #fff;
     --black--color: #000;
     --header--color:#e4114d;
+    --container--color: #f6f6f6;
     /* rgba(231, 46, 100, 1) */
 }
 
@@ -48,32 +49,31 @@ html {
 .seatMap {
     width: 550px;
     height: 360px;
-    margin-left: 32px;
+    margin-left: 92px;
 }
 .map {
     width: 355.2px;
     height: 191.99px;
     border-radius: 4px;
+    margin:12px 5px 0 5px;
+    padding-bottom: 12px;
+    padding-left: 5px;
 }
 .rickeysmiley {
-    width: 192px;
+    width: 200px;
     height: 191.99px;
     clip-path: circle(90px at 50% 50%);
+    margin-top: 24px;
 }
 
-.button__buyticket {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 118px;
-    height: 36px;
-    color: var(--primary-color);
-    border-radius: 4px;
-    box-shadow: 0 1px 4px 3px rgba(0 , 0 , 0, 0.2);
-    border: 2px solid var(--primary-color);
-}
 
 .btn {
     border: none;
-    color: var(--white-color);
+    color: var(--header--color);
+    background:none;
+    outline: none;
+}
+
+.background-color {
+    background-color: var(--container--color);
 }

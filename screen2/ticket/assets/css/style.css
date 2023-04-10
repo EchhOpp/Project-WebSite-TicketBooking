@@ -3,6 +3,8 @@
     position: relative;
 }
 
+/* header */
+
 #header {
     position: relative;
     padding-bottom: 83px;
@@ -111,4 +113,102 @@
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(252,178,199);
     cursor: pointer;
+}
+
+
+/* content */
+#container{
+    margin-top: 60px;
+}
+.container_content {
+    margin: 0 130px;
+}
+.container_content_item {
+    color: var(--black--color);
+    line-height: 1.4;
+    background-color: var(--white--color);
+    padding: 34px 120px 16px 10px;
+    margin-bottom: 16px;
+}
+.container_content_col1 {
+    width: 768px;
+    margin-top: 20px;
+}
+.container_content_col1_description {
+    
+}
+.description_title{
+    font-size: 2.864rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.description_content{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 57px;
+    margin-top: 38px;
+}
+
+.container_content_col1_seatmap {
+    
+}
+
+.container_content_col2 {
+    width: 396px;
+    margin: 20px 0 0 20px;
+}
+.description_item1{
+    margin: 10px 5px 68px 0;
+    font-size: 1.632rem;
+    text-align: center;
+    color: var(--black--color);
+}
+.container_content_item2 {
+    color: var(--black--color);
+    line-height: 1.4;
+    background-color: var(--white--color);
+    padding: 34px 10px 24px 10px;
+    margin-bottom: 16px;
+}
+
+.description_items {
+    text-align: center;
+    font-size: 1.224rem;
+    padding: 0 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.description_item {
+    color: var(--black--color);
+    text-align: left;
+}
+.description_item i{
+    color: var(--header--color);
+}
+                        
+.description_buttons{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.description_button {
+    border: 1px solid #aaaaaa;
+    margin: 28px 24px;
+    padding: 0 18px;
+    box-shadow:5px 5px 12px #b7b6b7;
+}
+
+.description_buttons div:nth-last-child(1) {
+    
+    border: 1px solid var(--header--color);
+    box-shadow:5px 5px 12px var(--header--color);
+}
+.description_button_name {
+}
+.description_button_price {
+}
+.description_button_tickets {
+    padding: 16px 24px;
+    font-size: 1.5rem;
 }
