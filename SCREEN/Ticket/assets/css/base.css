@@ -9,7 +9,7 @@
 * {
     box-sizing: inherit;
 }
-
+/* Font text */
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
@@ -17,6 +17,14 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Asap', sans-serif; 
+    box-sizing: border-box;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+
+/* grid */
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -67,6 +75,12 @@ html {
     height: 191.99px;
     clip-path: circle(90px at 50% 50%);
     margin-top: 24px;
+}
+
+.word {
+    height: 65px;
+    width: 85px;
+    display: block;
 }
 
 
