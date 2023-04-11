@@ -130,6 +130,11 @@
     box-shadow: 0 2px 4px 0 rgba(0 , 0 , 0, 0.15);
 }
 
+.container__product-item:hover {
+    animation: growth ease 1s;
+    animation-fill-mode: forwards;
+}
+
 .product__img {
 
 }
@@ -246,6 +251,11 @@
     border-radius: 50%;
     font-size: 3.6rem;
     border: none;
+    cursor: pointer;
+}
+
+.container__band__button__item:hover {
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.2);
 }
 
 .container__band__button__items_title {
@@ -298,14 +308,20 @@
     top: 50%;
     right: 123px;
     transform: translateY(-50%);
-}
-
-.btn-ContactUs {
     color: var(--text-black-color);
     padding: 25px 60px;
     font-weight: 500;
     border-radius: 5px;
 }
+
+.btn-ContactUs:hover {
+    background-color: #e6e6e6;
+    border:1px solid #adadad;
+    cursor: pointer;
+
+}
+
+
 
 /* footer */
 
