@@ -16,6 +16,11 @@
 * {
     box-sizing: inherit;
 }
+/* Ẩn 1 element */
+.hidden-ds {
+    display: none;
+}
+
 /* Font */
 html {
     font-size: 62.5%;
@@ -33,8 +38,67 @@ body {
     -webkit-text-size-adjust:100%;
 }
 /* Color */
-.color-primary {
-    color: var(--primary-color);
+/* Color */
+.bg-color-primary{
+    background-color: var(--primary-color);
+}
+.bg-color-extra{
+    background-color: #F05B86;
+}
+
+.bg-color-color {
+    background-color: var(--white-color);
+}
+
+.color-fas {
+    color: var(--heart-color);
+}
+
+.color-nameandtitle {
+    color: var(--name-product-color);
+}
+
+.color-white{
+    color: var(--white-color);
+}
+
+
+/* Font-size */
+.font-sizebig72 {
+    font-size: 4.5rem;
+}
+
+.font-sizebig55 {
+    font-size: 3.4375rem;
+}
+
+.font-sizebig40 {
+    font-size: 2.5rem;
+}
+
+.font-size18px {
+    font-size: 1.125rem;
+}
+
+.font-size20px {
+    font-size: 1.25rem;
+}
+
+.font-size22px {
+    font-size: 1.375rem;
+}
+
+.font-size24px {
+    font-size: 1.5rem;
+}
+
+
+.font-size28px {
+    font-size: 1.75rem;
+}
+
+.font-size28px {
+    font-size: 1.75rem;
 }
 
 /* grid */
@@ -122,4 +186,15 @@ body {
 /* Width */
 .width-70{
     width: 70%;
+}
+
+/* Animation */
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
 }
