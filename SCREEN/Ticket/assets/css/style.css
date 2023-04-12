@@ -491,8 +491,8 @@
 
 #footer {
     background-color: var(--text-black-color);
-    height: 440px;
     width: 100%;
+    margin-top: 60px;
 }
 
 .footer_top {
@@ -506,8 +506,18 @@
     padding-top: 68px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 19%;
+    align-items: self-start;
+    width: 60%;
+}
+
+.img-footer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img_word-footer {
+    display: block;
+    margin: auto;
 }
 
 .footer-cmtSocial {
@@ -534,10 +544,11 @@
 }
 .footer_bottom {
     border-top: 2px solid var(--primary-color);
-    margin: 130px;
+    margin:130px 130px 0 130px;
 }
 
 .footer_bottom-intro {
+    margin: 20px;
     display: inline-block;
     width: 100%;
     text-align: center;
