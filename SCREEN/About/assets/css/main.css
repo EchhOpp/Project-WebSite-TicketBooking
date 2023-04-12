@@ -99,3 +99,74 @@
     width: 100%;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
+
+.ct_ourhistory {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}           
+
+.ct_ourhistory::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary-color);
+    float: left;
+    margin-right: 6px;
+}
+.ct_ourhistory::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary-color);
+    float: right;
+    margin-left: 6px;
+}
+
+.ct-title {
+    margin: 40px 0;
+    font-size: 4.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.ct-content {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.ct-tickred {
+    margin-top: 30px;
+}
+
+.ct-tick {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.ct-tick>i {
+    color: var(--primary-color); 
+    padding-right: 5px;
+}
+
+.container-contect {
+   margin: 40px 0;
+}
+
+.ct_expert {
+    font-size: 2.6rem;
+    font-weight: 600;
+    width: 80%;
+}
+
+.ct-content-text {
+    width: 80%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-top: 20px;
+}
