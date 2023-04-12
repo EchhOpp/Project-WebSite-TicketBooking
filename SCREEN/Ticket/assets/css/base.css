@@ -32,6 +32,10 @@ body {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
+/* Color */
+.color-primary {
+    color: var(--primary-color);
+}
 
 /* grid */
 .grid {
@@ -87,12 +91,6 @@ body {
 }
 
 
-.btn {
-    border: none;
-    color: var(--header--color);
-    background:none;
-    outline: none;
-}
 .fontsize24 {
     /* font-size: 2.4rem; */
 }
@@ -105,4 +103,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Căn giữa */
+.display_center {
+    display: block;
+    margin: 0 auto;
+}
+
+.margin-top-20px {
+    margin-top: 20px;
+}
+
+.margin-top-12px {
+    margin-top: 12px;
+}
+
+/* Width */
+.width-70{
+    width: 70%;
 }
