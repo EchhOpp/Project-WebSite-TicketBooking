@@ -37,7 +37,7 @@ body {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
-/* Color */
+
 /* Color */
 .bg-color-primary{
     background-color: var(--primary-color);

@@ -7,7 +7,7 @@
     position: relative;
 }
 .header__nav {
-    position: fixed;
+    position: absolute;
     top: 21px;
     right: 130px;
     left: 130px;
@@ -507,7 +507,6 @@
     display: flex;
     flex-direction: column;
     align-items: self-start;
-    width: 60%;
 }
 
 .img-footer {
@@ -539,7 +538,7 @@
 
 .footer_infortable th,td {
     text-align: left;
-    padding: 10px 90px;
+    padding: 10px 80px;
     font-size: 1.375rem;
 }
 .footer_bottom {
