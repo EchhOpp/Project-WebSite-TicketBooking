@@ -93,11 +93,6 @@ body {
     background:none;
     outline: none;
 }
-
-.background-color {
-    background-color: var(--container--color);
-}
-
 .fontsize24 {
     /* font-size: 2.4rem; */
 }
