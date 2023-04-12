@@ -20,6 +20,7 @@
 </head>
 <body>
     <div id="main">
+        <!-- header -->
         <div id="header">
             <div class="header__nav">
                 <img src="./assets/img/word_logo.png" alt="world" class="word">
@@ -31,31 +32,29 @@
                     <li class="header__nav-list"><a class="header__nav-list-item" href="#">Photo Gralley</a></li>
                     <li class="header__nav-list"><a class="header__nav-list-item" href="#">Contact</a></li>
                 </ul>
-            </div>
-            <div>
-                <div class="header_img row">
+             </div>
+            <div class="header_img row">
                     <div class="background_header col-md-4" style="background-image: url('./assets/img/header-img1.jpg');"></div>
                     <div class="background_header col-md-4" style="background-image: url('./assets/img/header-img2.jpg');"></div>
                     <div class="background_header col-md-4" style="background-image: url('./assets/img/header-img3.jpg');"></div>
                 </div>
-            </div>
-            <div class="header_schedule grid_row">
-                <div class="header_schedule_calender">
-
+            <div class="header_schedule row">
+                <div class="header_schedule_calender col-md-2 img_calender" style="background-image: url('./assets/img/date.png');">
+                    <p id="number_day">18</p>
+                    <p id="day">SUNDAY</p>
+                    <p id="month">JANUARY</p>
                 </div>
-                <div class="header_schedule_info">
+                <div class="header_schedule_info col-md-7">
                     <h2 class="header_info1">Rickey Smiley</h2>
                     <p class="header_info_tt">Important Event Indo: Doors 7pm Show Bom</p>
                     <p class="header_info_tt"><i class="fa-sharp fa-regular fa-calendar-days"></i> January 10, 2022-Mon, April 29, 2024</p>
                     <p class="header_info_tt"><i class="ti-location-pin"></i>Overs Auditorium, Charlotte, NC</p>
                 </div>
-                <div class="header_schedule_button">
-                    <a href="">
-                        <button class="header_schedule_button_getTickes" >
+                <div class="header_schedule_button col-md-3">
+                        <button class="btn btn-default btn-header" >
                             <i class="fa-sharp fa-solid fa-ticket"></i>
                             GET TICKETS
                         </button>
-                    </a>
                 </div>
             </div>
         </div>

@@ -68,62 +68,96 @@
     display: block;
 }
 
-.header_img  {
-    
-}
 
 .background_header{
-    height: 432px;
-    padding-top: 25%;
+   height: 432px;
+   padding-top: 25%;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 }
 
 .header_schedule{
-    margin: 40px 130px 0 130px;
     position: relative;
-}
-.header_schedule_calender {
-    width: 15%;
-    background-color: var(--header--color);
+    margin: 40px 130px 0 130px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  
 }
 
+#number_day {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--black--color);
+    font-size: 5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#day {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #727171;
+    font-size: 2.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+#month {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white--color);
+    letter-spacing: 2px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img_calender {
+    padding-top: 21%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(15, 28, 63, 0.275);
+}
+
+
 .header_schedule_info {
-    margin-top: 17px;
-    margin-left: 37px;
     line-height: 1.6;
 }
 
 .header_info1{
     font-size: 2.9rem;
     font-weight: 700;
-    margin: 0;
 }
 .header_info_tt{
-    margin: 0;
     font-size: 1.755rem;
     font-weight: 500;
 }
 
-.header_schedule_button {
+.header_schedule_button>button {
     font-size: 1.94rem;
-    position: absolute;
-    left: 838px;
-    top: 50px;
-
-}
-
-.header_schedule_button_getTickes {
+    background-color: var(--primary-color);
     color: var(--white--color);
-    border: none;
-    background-color: var(--header--color);
-    padding: 18px 104px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgb(252,178,199);
-    cursor: pointer;
+    padding: 16px 80px;
 }
 
+.header_schedule_button>button:hover,
+.header_schedule_button>button:focus,
+.header_schedule_button>button:active {
+    background-color: rgba(178, 12, 59);
+    color: var(--white--color);
+}
+
+.header_schedule_button>button:focus {
+    outline: var(--primary-color);
+}
 
 /* content */
 #container{
