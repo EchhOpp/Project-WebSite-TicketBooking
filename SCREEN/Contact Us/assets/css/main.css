@@ -138,3 +138,56 @@
     display: block;
     padding-left: 15px;
 }
+
+
+/*  form login */
+.ct_form-login {
+    margin-bottom: 20px;
+}
+.input-group-addon {
+    background-color: var(--primary-color);
+    color: var(--white--color);
+    border: 2px solid var(--primary-color);
+}
+
+.form-control::placeholder {
+    font-size: 1.2rem;
+}
+
+.form-group {
+    width: 100%;
+
+}
+
+#login{
+    background-color: #FAFEFF;
+}
+
+
+.form-inline .input-group .form-control, .form-inline .input-group{
+    width: 80%;
+}
+
+#write_login {
+    width: 67%;
+    background-color: #FAFEFF;
+}
+
+.ct-form-submit {
+    display: block;
+    width: 67%;
+}
+.btn-primary {
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-size: 1.6rem;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 4px 0 rgba(226, 13, 73, 0.8);
+}
+
+.btn-primary:hover, 
+.btn-primary:focus {
+    background-color: var(--primary-color);
+}
