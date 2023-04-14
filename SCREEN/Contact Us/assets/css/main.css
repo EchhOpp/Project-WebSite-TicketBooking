@@ -191,3 +191,9 @@
 .btn-primary:focus {
     background-color: var(--primary-color);
 }
+
+/* map */
+.map-contact {
+    width: 100%;
+    height: auto;
+}
