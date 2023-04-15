@@ -111,9 +111,6 @@
 /* Item Our Services */
 
 
-.ct-outService {
-    display: block;
-}
 
 .oursevices-item>a {
     text-decoration: none;
@@ -125,7 +122,7 @@
 
 .os-item-contect {
     box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.1);
-    padding: 8%;
+    padding:12%  8%;
     width: 100%;
     height: 100%;
     display: block;
@@ -209,4 +206,83 @@
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     box-shadow: 0 0 8px 0 rgba(226, 13, 73, 0.8);
+}
+
+
+/* Artist Booking */
+.ct-performance {
+    margin: 80px 0;
+}
+.container-aritist {
+    height: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.ct-art-content {
+    width: 50%;
+    display: block;
+    margin:12% auto;
+}
+
+.ct_ourhistory {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}           
+
+.ct_ourhistory::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary-color);
+    float: left;
+    margin-right: 6px;
+}
+.ct_ourhistory::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary-color);
+    float: right;
+    margin-left: 6px;
+}
+
+.ct-title--art {
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.ct-content--art {
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.ct-art-btn {
+    margin-top: 8%;
+}
+
+.btn-getTicks {
+    display: block;
+    margin: auto;
+    width: 100%;
+    color: var(--primary-color);
+    border: 1px solid rgba(226, 13, 73, 0.6);
+    box-shadow: 0 0 4px 0 rgba(226, 13, 73, 0.2);
+}
+
+.btn-getTicks:active,
+.btn-getTicks:hover,
+.btn-getTicks:focus{
+    background-color: rgba(226, 13, 73, 0.8);
+    outline: none;
+    color: var(--white--color);
 }
