@@ -165,17 +165,17 @@
 
 
 .form-inline .input-group .form-control, .form-inline .input-group{
-    width: 80%;
+    width: 90%;
 }
 
 #write_login {
-    width: 67%;
+    width: 82.666%;
     background-color: #FAFEFF;
 }
 
 .ct-form-submit {
     display: block;
-    width: 67%;
+    width: 82.6666%;
 }
 .btn-primary {
     display: block;
