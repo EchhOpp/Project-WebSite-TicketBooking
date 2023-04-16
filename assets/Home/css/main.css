@@ -6,7 +6,7 @@
     position: relative;
 }
 .header__nav {
-    position: fixed;
+    position: absolute;
     top: 21px;
     right: 130px;
     left: 130px;
