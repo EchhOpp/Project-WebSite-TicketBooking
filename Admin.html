@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/Admin/css/main.css">
+    <link rel="stylesheet" href="./assets/Admin/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/Admin/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/Admin/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="app">
+        <div class="navbar sidenavbar">
+            <div class="sidenav">
+                <div class="sidenav_menu flex-colum">
+                    <div class="navbar-logo">
+                        <a href="#" class="navbar-brand ">
+                            <img src="./assets/Admin/img/LOGO.png" alt="" class="logo-admin">
+                        </a>
+                    </div>
+                    <ul class="navbar-nav flex-colum " id="sidenavbar-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="ti-home"></i>
+                                &ensp;
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-chart-line"></i>
+                                &ensp;
+                                Overview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-table"></i>
+                                &ensp;
+                                All tickets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                                &ensp;
+                                Add new tickets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                &ensp;
+                                Edit tickets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-business-time"></i>
+                                &ensp;
+                                Manage orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="ti-settings"></i>
+                                &ensp;
+                                Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                &ensp;
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="content-header">
+                <div class="content-header_1">
+                    <div class="">
+                        <a href="#" class="nav-toggle mg-lf" >
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                        <div class="form mg-lf">
+                            <form action="" class="form-inline form">
+                                <input type="text" class="form-control form-input" placeholder="Search">
+                            </form>
+                        </div>                   
+                    </div>
+                </div>
+                <div class="content-header_2">
+                    <span class="mg-lf"><i class="fa-solid fa-bell"></i></span>
+                    <div class="img-avatar inline-block">
+                        <i class="fa-solid fa-circle icon-online" style="color: #80f75f;"></i>
+                        <img src="./assets/Admin/img/avatar-1.jpg" alt="" class="circle mg-lf avatar">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary pt-10 pb-15-5"></div>
+            <div class="content_Home">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-between align-items-center ">
+                        <div class="content_Home_tt">
+                            <h3 class="text-white font-size28">Home</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-createTickes">Create New Ticket</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mg-tp-24">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mg-bt-24 ">
+                                    <div class="Title ">
+                                        <h3>Customers</h3>
+                                    </div>
+                                    <div class="icon ">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h1 class="quality">1,912</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mg-tp-24">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mg-bt-24 ">
+                                    <div class="Title ">
+                                        <h3>Customers</h3>
+                                    </div>
+                                    <div class="icon ">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h1 class="quality">689</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mg-tp-24">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mg-bt-24 ">
+                                    <div class="Title ">
+                                        <h3>On hold</h3>
+                                    </div>
+                                    <div class="icon ">
+                                        <i class="fa-solid fa-hand-holding"></i>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h1 class="quality">720</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mg-tp-24">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mg-bt-24 ">
+                                    <div class="Title ">
+                                        <h3>Revenue</h3>
+                                    </div>
+                                    <div class="icon ">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h1 class="quality">$84.254</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mg-tp-24">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Music events</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Name events</th>
+                                            <th>Quantity</th>
+                                            <th>Priority</th>
+                                            <th>Members</th>
+                                            <th>Progress</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody >
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb1.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">120</td>
+                                            <td class="align-middle">
+                                                <span class="bg-warning badge">Track</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">15%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                                          <span class="sr-only">0% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb2.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">58</td>
+                                            <td class="align-middle">
+                                                <span class="bg-low badge">Low</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">78%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:78%">
+                                                          <span class="sr-only">0% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb3.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">154</td>
+                                            <td class="align-middle">
+                                                <span class="bg-high badge">High</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admi/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admi/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">45%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+                                                          <span class="sr-only">45% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb4.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">120</td>
+                                            <td class="align-middle">
+                                                <span class="bg-warning badge">Track</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">5%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:5%">
+                                                          <span class="sr-only">0% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb5.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">108</td>
+                                            <td class="align-middle">
+                                                <span class="bg-Medium badge">Medium</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">93%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:93%">
+                                                          <span class="sr-only">0% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class=>
+                                            <td class="align-middle">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="./assets/Admin/img/tb1.png" alt="">
+                                                    </div>
+                                                    <div class="Rickey-name">
+                                                        <h4>
+                                                            <a href="">Rickey Smiley</a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">131</td>
+                                            <td class="align-middle">
+                                                <span class="bg-high badge">High</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="avatar-group">
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-1 2.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-2 1.png" alt="">
+                                                    </span>
+                                                    <span class="avatar">
+                                                        <img src="./assets/Admin/img/avatar-3 1.png" alt="">
+                                                    </span>
+                                                    <span class="circle avatar moreuser">+5</span>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle percent">
+                                                <div class="number-percent">68%</div>
+                                                <div class="icon-percent">
+                                                    <div class="progress" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:68%">
+                                                          <span class="sr-only">0% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="link-cfootrt"> View All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
