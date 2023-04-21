@@ -1,0 +1,192 @@
+#app {
+    position: relative;
+    height: 1500px;
+}
+
+
+.sidenavbar {
+    background-color: var(--navbar-color);
+    max-width: 290px;
+    width: 100%;
+    border: none;
+    height: 100%;    
+    position: fixed;
+    top:0;
+}
+.navbar-logo {
+    padding:12px 20px ;
+}
+
+#sidenavbar-menu {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 36px;
+    line-height: 2;
+}
+
+#sidenavbar-menu li {
+    list-style: none;
+    margin: 12px 0px;
+}
+
+#sidenavbar-menu li a {
+    color: var(--white-color);
+    text-decoration: none;
+    
+}
+#sidenavbar-menu li:hover a {
+    font-weight: 600;
+}
+
+/* content */
+#content {
+    margin-left: 29rem;
+    height: 100%;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+.content-header_1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.nav-toggle {
+    vertical-align: middle;
+    font-size: 2rem;
+    color: #454f5b;
+}
+.form {
+    display: inline-block;
+    width: 300px;
+    font-size: 1.5rem;
+}
+input.form-control.form-input {
+    width: 100%;
+    padding: 24px 24px;
+}
+.content-header_2 span {
+    font-size: 2rem;
+    vertical-align: middle;
+    color: #454f5b;
+}
+.img-avatar {
+    font-size: 1rem;
+    position: relative;
+}
+.icon-online {
+    position: absolute;
+    top: 40px;
+    left: 48px;
+    z-index: 1;
+    box-shadow: 0px 0px 3px 2px #999;
+    border-radius: 50%;
+}
+
+.content_Home {
+    padding: 0 32px 0 32px;
+    margin-top: -180px;
+}
+.content_Home_tt {
+    margin-bottom: 0;
+}
+.btn-createTickes{
+    background-color: var(--white-color);
+    border-color: var(--white-color);
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 8px 20px;
+}
+.card {
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0,0,20,.08), 0 1px 2px rgba(0,0,20,.08);
+    padding: 16px;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.Title {
+    font-size: 4rem;
+    font-weight: 500;
+}
+.icon {
+    font-size: 2.4rem;
+    color: #624bff;
+    background-color: #e0dcfe;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.quality {
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+.card-header h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 8px 8px;
+}
+
+.table>thead {
+    vertical-align: bottom;
+    font-size: 1.8rem;
+    color: #637390;
+}
+.table>thead th {
+    font-weight: 400;
+} 
+
+.table td {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+.bg-warning {
+    background-color: #198754!important;
+}
+
+.badge {
+    border-radius: 0.375rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0.35em 0.65em;
+}
+
+.percent {
+    color: var(--black-color);
+}
+.number-percent {
+    float: left;
+}
+.icon-percent {
+    margin-top: 12px;
+}
+
+.moreuser{
+    vertical-align: middle;
+    padding: 8px 9px;
+    color: var(--white-color);
+    background-color: #624bff;
+    font-size: 0.8rem;
+}
+
+.card-footer {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.link-cfootrt {
+    text-decoration: none;
+}
