@@ -98,6 +98,10 @@ body {
     justify-content: space-between!important;
 }
 
+.justify-content-around {
+    justify-content: space-around!important;
+}
+
 .d-flex {
     display: flex!important;
 }
@@ -134,4 +138,25 @@ body {
 }
 .bg-Medium {
     background-color: #ffc107 ;
+}
+
+.chart-img {
+    width: 140px;
+    height: 140px;
+}   
+.text-center {
+    text-align: center!important;
+}
+.color-track {
+    color: #198754;
+}
+.color-high {
+    color: #dc3545;
+}
+.color-medium {
+    color: #ffc107 ;
+}
+
+.font-size18 {
+    font-size: 1.8rem;
 }
