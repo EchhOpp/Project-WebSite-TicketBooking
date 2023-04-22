@@ -130,7 +130,7 @@ input.form-control.form-input {
 }
 
 .card-header h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     padding: 8px 8px;
 }
@@ -150,6 +150,11 @@ input.form-control.form-input {
     font-weight: 500;
 }
 
+.Rickey-name a {
+    color:var(--black-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
 
 .bg-warning {
     background-color: #198754!important;
@@ -209,4 +214,13 @@ input.form-control.form-input {
 
 .chart {
     justify-content: center;
+}
+
+.name-singer a {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.singer-img {
+    height: 30px;
+    width: 30px;
 }
