@@ -432,14 +432,14 @@
     display: none;
 }
 
-/* @keyframes fadeIn{
+@keyframes fadeIn{
    from {
     opacity: 0;
    }
    to {
     opacity: 1;
    }
-} */
+}
 
 @media (max-width:46.1875em) {
     .nav-open:checked ~ .nav-overlay {
