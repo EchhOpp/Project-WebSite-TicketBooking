@@ -485,7 +485,7 @@
         display: block;
     }
     .header__nav {
-        margin: 10px 100px;
+        margin: 10px 90px;
     }
     .header__nav-list {
         padding: 12px 0 0 24px;
@@ -525,7 +525,7 @@
     
     .footer_infortable th, td {
         text-align: left;
-        padding: 5px 50px;
+        padding: 5px 44px;
         font-size: 1.3rem;
     }
   
