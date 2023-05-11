@@ -485,7 +485,9 @@
 }
 
 
-
+.overlay {
+    display: none;
+}
 
 /* footer */
 
@@ -551,4 +553,349 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+
+/*  */
+
+.nav-bar-btn{
+   
+    color: #262665;
+    font-size: 25px;
+    
+ }
+ .nav-overlay {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0 , 0 , 0, 0.3);
+     display: none;
+     animation: fadeIn linear 0.2s;
+ }
+ .header__navbar-repo{
+     z-index: 1;
+     position: fixed;
+     top: 0px;
+     right: 0;
+     bottom: 0;
+     width: 320px;
+     max-width: 100%;
+     background-color: var(--white-color);
+     transform: translateX(100%);
+     transition: transform linear 0.2s;
+ }
+ .header__nav-repo-list {
+     text-decoration: none;
+     list-style: none;
+     display: block;
+     padding: 8px 0;
+     font-size: 1.4rem;
+     font-weight: 500;
+ }
+ .header__nav-repo-list a {
+     color: #333;
+     text-decoration: none;
+ }
+ .header__nav-repo-list:hover a {
+     padding-bottom: 3px;
+     color: var(--primary-color);
+     border-bottom: 2px solid var(--primary-color);
+ }
+ .nav-close {
+     position: absolute;
+     top: 0;
+     font-size: 2.5rem;
+     right: 2%;
+ }
+ #menu-moblie {
+     display: none;
+ }
+ #nav-mobile-ip {
+     display: none;
+ }
+ @keyframes fadeIn{
+     from {
+      opacity: 0;
+     }
+     to {
+      opacity: 1;
+     }
+  }
+
+
+@media (max-width:46.1875em) {
+    .bk2,
+    .bk3{
+        display: none;
+    } 
+
+    #menu-moblie {
+        display: block;
+    }
+    .nav-open:checked ~ .nav-overlay {
+        display: block;
+    }
+
+    .nav-open:checked ~ .header__navbar-repo {
+        transform: translateX(0%);
+    }
+    .word {
+        height:35px;
+        width: 55px;
+        display: block;
+    }
+    .header__navbar {
+        display: none;
+       
+    }
+    .header__nav {
+        margin: 10px 0px;
+    }
+    .header__nav {
+        right: 8%;
+        left: 8%;
+    }
+    .nav-open {
+        display: none;
+    }
+
+    
+    .header_schedule{
+        width: 85%;
+        margin: 24px 75px;
+    }
+    .img_calender{
+        padding-right: 9%;
+        padding-left: 8%;
+        font-size: 2.5rem;
+    }
+    #number_day{
+        font-size: 2.5rem;
+    }
+    #day,
+    #month{
+        font-size: 1.5rem;
+    }
+    .header_schedule_info{
+
+    }
+    .header_info1{
+        font-size: 2rem;
+    }
+    .header_info_tt{
+        font-size: 1rem;
+    }
+    .header_schedule_button>button {
+        font-size: 1.4rem;
+        padding: 12px 54px;
+    }
+    
+    
+
+    .container_left {
+        padding: 0 0 0 90px;
+    }
+
+    .container_right {
+        margin-left: 77px;
+    }
+
+    .overlay {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: rgb(246,246,246);
+    }
+
+    .container__product-item--favourite {
+        top: 64%;
+    }
+
+    .ContactUs_Text {
+        left: 8%;
+        width: 40%;
+        line-height: 1.4;
+        
+    }
+    .ContactUs_title {
+        /* margin: 0 0 17px 0; */
+        margin: 0;
+        line-height: 1.4;
+    }
+    .font-sizebig40.ContactUs_title{
+        font-size: 1.5rem;
+    }
+    .font-size20px.ContactUs_text-body{
+        font-size: 0.9rem;
+    }
+
+    .btn-ContactUs {
+        right: 8%;
+        padding: 8px 28px;
+        
+    }
+    .btn-ContactUs span {
+        font-size: 2rem;
+    }
+
+
+
+    #footer {
+       
+    }
+    
+    .footer_top {
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+    
+    .footer_inforSocial {
+        padding-top: 74px;
+        padding-left: 12px;
+        line-height: 1.4;
+    }
+    
+    
+    .footer-cmtSocial {
+        font-size: 1.1rem;
+        margin-top: 14px;
+    }
+    
+    .img__social {
+        height: 18px;
+        padding-right: 8px;
+
+    }
+    
+    
+    .footer_infortable th, td {
+        text-align: left;
+        padding: 5px 32px;
+        font-size: 1.1rem;
+    }
+  
+}
+
+@media(min-width: 46.25em) and (max-width: 63.9375em){
+    .bk2,
+    .bk3{
+        display: none;
+    } 
+    .word {
+        height:35px;
+        width: 55px;
+        display: block;
+    }
+    .header__nav-list {
+        padding: 12px 0 0 24px;
+    }
+    .header__nav-list a {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .header__nav {
+        width: 95%;
+        left: 24px;
+    }
+
+    .header_schedule{
+        width: 85%;
+        margin: 24px 90px;
+    }
+    .img_calender{
+        padding-right: 9%;
+        padding-left: 8%;
+        font-size: 4rem;
+    }
+    #number_day{
+        font-size: 4rem;
+    }
+    #day,
+    #month{
+        font-size: 2rem;
+    }
+    .header_schedule_info{
+
+    }
+    .header_info1{
+        font-size: 2.4rem;
+    }
+    .header_info_tt{
+        font-size: 1.5rem;
+    }
+
+
+
+    .container_right {
+        margin-left: 114px;
+    }
+
+    .overlay {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: rgb(246,246,246);
+    }
+
+    .container__product-item--favourite {
+        top: 72%;
+    }
+
+
+    .ContactUs_Text {
+        left: 56px;
+        width: 40%;
+        
+    }
+    .font-sizebig40.ContactUs_title{
+        font-size: 2rem;
+    }
+    .font-size20px.ContactUs_text-body{
+        font-size: 1.1rem;
+    }
+
+    .btn-ContactUs {
+        right: 8%;
+        padding: 20px 44px;
+    }
+
+    #footer {
+       
+    }
+    
+    .footer_top {
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+    
+    .footer_inforSocial {
+        padding-top: 74px;
+        padding-left: 12px;
+        line-height: 1.4;
+    }
+    
+    
+    .footer-cmtSocial {
+        font-size: 1.3rem;
+        margin-top: 14px;
+    }
+    
+    .img__social {
+        height: 24px;
+        padding-right: 8px;
+
+    }
+    
+    
+    .footer_infortable th, td {
+        text-align: left;
+        padding: 5px 44px;
+        font-size: 1.3rem;
+    }
+
+    
+  
 }
