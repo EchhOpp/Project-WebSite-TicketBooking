@@ -33,6 +33,18 @@
                         <li class="header__nav-list"><a href="Ticket.html">Photo Gralley</a></li>
                         <li class="header__nav-list"><a href="ContactUs.html">Contact</a></li>
                     </ul>
+                    <div class="nav-bar-btn " id="menu-moblie">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="header__navbar-repo">
+                        <li class="header__nav-repo-list"><a href="#">Home</a></li>
+                        <li class="header__nav-repo-list"><a href="About.html">About</a></li>
+                        <li class="header__nav-repo-list"><a href="Ticket.html">Past Events</a></li>
+                        <li class="header__nav-repo-list"><a href="Services.html">Services</a></li>
+                        <li class="header__nav-repo-list"><a href="Ticket.html">Photo Gralley</a></li>
+                        <li class="header__nav-repo-list"><a href="ContactUs.html">Contact</a></li>
+                    </ul>
+                    
                 </div>
                 <img src="./assets/Home/img/backgroup_1.jpg" alt="backgroup_1" class="backgroup">
                 <div class="header__navtitle">
@@ -307,28 +319,29 @@
                 </div>
             </div>
             <!-- Band -->
-            <div class="container__band">
-                <img src="./assets/Home/img/band.jpg" alt="band" class="backgroup">
+            <div class="container__band row">
+                <img src="./assets/Home/img/band.jpg" alt="band" class="backgroup backgroup1">
                 <p id="container__band__itwork">How It Work <i class="fa-regular fa-calendar-star"></i></p>
                 <div class="container__band__button grid">
-                    <div class="container__band__button__items">
-                        <button class="container__band__button__item">
-                            <i class="fa-solid fa-calendar"></i>
-                        </button>
-                        <p class="container__band__button__items_title">CHOSSE EVENTS</p>
-                    </div>
-                    <div class="container__band__button__items">
-                        <button class="container__band__button__item">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </button>
-                        <p class="container__band__button__items_title">BOOKING EVENT THAT YOU LIKE</p>
-                    </div>
-                    <div class="container__band__button__items">
-                        <button class="container__band__button__item">
-                            <i class="fa-solid fa-ticket"></i>
-                        </button>
-                        <p class="container__band__button__items_title">GET THE TICKET TO ATTEND</p>
-                    </div>
+                    <!-- thêm row grid vs col-md-4 -->
+                        <div class="container__band__button__items col-md-4">
+                            <button class="container__band__button__item">
+                                <i class="fa-solid fa-calendar"></i>
+                            </button>
+                            <p class="container__band__button__items_title">CHOSSE EVENTS</p>
+                        </div>
+                        <div class="container__band__button__items col-md-4">
+                            <button class="container__band__button__item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <p class="container__band__button__items_title">BOOKING EVENT THAT YOU LIKE</p>
+                        </div>
+                        <div class="container__band__button__items col-md-4">
+                            <button class="container__band__button__item">
+                                <i class="fa-solid fa-ticket"></i>
+                            </button>
+                            <p class="container__band__button__items_title">GET THE TICKET TO ATTEND</p>
+                        </div>
                 </div>
             </div>
             <!-- Buy Ticket  -->
@@ -638,8 +651,8 @@
                 <div class="footer_inforSocial">
                     <img src="./assets/Home/img/world.png" alt="word" class="word">
                     <p class="footer-cmtSocial color-white font-size22px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div class="inforSocial">
-                        <a href=""><img src="./assets/Home/img/face.png" alt="" class="img__social"></a>
+                    <div class="inforSocial row">
+                        <a href=""><img src="./assets/Home/img/face.png" alt="" class="img__social "></a>
                         <a href=""><img src="./assets/Home/img/in.png" alt="" class="img__social"></a>
                         <a href=""><img src="./assets/Home/img/tw.png" alt="" class="img__social"></a>
                         <a href=""><img src="./assets/Home/img/pp.png" alt="" class="img__social"></a>
@@ -692,4 +705,5 @@
         </div>
     </div>
 </body>
+
 </html> 
