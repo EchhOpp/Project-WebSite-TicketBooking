@@ -1,10 +1,4 @@
-.setmagrin29{
-    margin-left: 29rem !important;
-}
 
-.setTransform {
-    display: block !important;
-}
 
 #app {
     position: relative;
@@ -18,8 +12,8 @@
     height: 100%;    
     position: fixed;
     top:0;
-    
-   
+    transform: translateX(0%);
+    transition: transform linear 0.2s;
 }
 .navbar-logo {
     padding:12px 20px ;
@@ -232,3 +226,23 @@ input.form-control.form-input {
     height: 30px;
     width: 30px;
 }
+
+/* menu */
+/* #open_menu {
+    display: none;
+} */
+
+.setmagrin29{
+    margin-left: 0 !important;
+}
+
+.setTransform {
+    transform: translateX(-100%)!important;
+}
+/* #open_menu:checked ~ .sidenavbar {
+    transform: translateX(-100%);
+}
+
+#open_menu:checked ~ #content {
+    margin-left: 0;
+} */

@@ -20,7 +20,8 @@
 </head>
 <body>
     <div id="app">
-        <div class="navbar sidenavbar">
+        <!-- <input type="checkbox" id="open_menu"> -->
+        <div class="navbar sidenavbar" id="menu-nav">
             <div class="sidenav">
                 <div class="sidenav_menu flex-colum">
                     <div class="navbar-logo">
@@ -94,7 +95,9 @@
             <div class="content-header">
                 <div class="content-header_1">
                     <div class="">
-                        <a href="#" class="nav-toggle mg-lf" >
+                       
+                        <!--for="open_menu"-->
+                        <a href="#" class="nav-toggle mg-lf"  >
                             <i class="fa-solid fa-bars"></i>
                         </a>
                         <div class="form mg-lf">
@@ -199,7 +202,7 @@
                                 <h3>Music events</h3>
                             </div>
                             <div class="table-responsive">
-                                <table class="table">
+                                <table class="table" id="tbl1">
                                     <thead class="table-light">
                                         <tr>
                                             <th>Name events</th>
@@ -209,7 +212,7 @@
                                             <th>Progress</th>
                                         </tr>
                                     </thead>
-                                    <tbody >
+                                    
                                         <tr class=>
                                             <td class="align-middle">
                                                 <div class="d-flex align-items-center">
@@ -462,7 +465,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                    </tbody>
+                                    
                                 </table>
                             </div>
                             <div class="card-footer">
@@ -628,20 +631,33 @@
         </div>
     </div>
     <script>
-    //    const buttonMenu = document.getElementsByClassName('nav-toggle');
-    //    const menu = document.getElementsByClassName('sidenavbar');
-    //    const content = document.getElementById('content')
-    //    function hideMenu() {
-    //         menu.classList.add('setTransform');
-    //         content.classList.add('setmagrin29');
-    //    }
-    //    $('.nav-toggle').click(function(e){
-    //        hideMenu();
-    //    })
-    //    menu.addEventListener('click',function(event){
-    //         event.stopPropagation()
-    //    })
-    const table = document.getElementById('tbl');
+       const buttonMenu = document.getElementsByClassName('nav-toggle');
+       const menu = document.getElementsByClassName('sidenavbar');
+       const content = document.getElementById('content')
+       const ax = document.querySelector('.sidenavbar');
+       const bx = document.querySelector('#content') 
+       function hideMenu() {
+            // document.getElementById('content').style.marginLeft = '0px';
+            // document.getElementById('menu-nav').style.transform = 'translateX(-100%)';
+            // if(ax.getAttribute('margin-left')==0){
+            //     ax.classList.remove('setTransform');
+            //     bx.classList.remove('setmagrin29');
+            // }
+            console.log(content.clientWidth);
+            if(content.clientWidth===1519){
+                ax.classList.remove('setTransform');
+                bx.classList.remove('setmagrin29');
+            }
+            else{
+                ax.classList.add('setTransform');
+                bx.classList.add('setmagrin29');
+            }
+       }
+       $('.nav-toggle').click(function(e){
+           hideMenu();
+       })
+        const table = document.getElementById('tbl');
+        const table1 = document.getElementById('tbl1');
 
         getDatAPI();
         async function getDatAPI(){
@@ -665,13 +681,15 @@
                                         </div>
                                 </td>
                                 <td class="align-middle">${data.email}</td>
-                                <td class="align-middle">${data.date}</td>
+                                <td class="align-middle">${data.Date}</td>
                                 <td class="align-middle">
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                 </td>
                                 `;
                                 table.appendChild(trItem);
         })
+       
+
     }
     </script>
 </body>
