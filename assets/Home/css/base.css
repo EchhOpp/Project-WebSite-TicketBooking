@@ -330,7 +330,8 @@ body {
 .nav-bar-btn{
     display: none;
     color: #F9F9FA;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 0 20px;
  }
  .nav-overlay{
      position: fixed;
