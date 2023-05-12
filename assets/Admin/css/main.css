@@ -1,9 +1,15 @@
+.setmagrin29{
+    margin-left: 29rem !important;
+}
+
+.setTransform {
+    display: block !important;
+}
+
 #app {
     position: relative;
     height: 1500px;
 }
-
-
 .sidenavbar {
     background-color: var(--navbar-color);
     max-width: 290px;
@@ -12,6 +18,8 @@
     height: 100%;    
     position: fixed;
     top:0;
+    
+   
 }
 .navbar-logo {
     padding:12px 20px ;

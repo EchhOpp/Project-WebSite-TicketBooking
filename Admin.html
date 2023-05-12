@@ -515,7 +515,7 @@
                                 <h3>Singer</h3>
                             </div>
                             <div class="table-responsive">
-                                <table class="table">
+                                <table class="table" id="tbl">
                                     <thead class="table-light">
                                         <tr>
                                             <th>Name</th>
@@ -523,8 +523,7 @@
                                             <th>Date </th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
+                                        <!-- <tr>
                                             <td class="align-middle">
                                                 <div class="d-flex align-items-center">
                                                     <div class="">
@@ -618,8 +617,8 @@
                                             <td class="align-middle">
                                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                                             </td>
-                                        </tr>
-                                    </tbody>
+                                        </tr> -->
+                                    
                                 </table>
                             </div>
                         </div>
@@ -628,5 +627,52 @@
             </div>
         </div>
     </div>
+    <script>
+    //    const buttonMenu = document.getElementsByClassName('nav-toggle');
+    //    const menu = document.getElementsByClassName('sidenavbar');
+    //    const content = document.getElementById('content')
+    //    function hideMenu() {
+    //         menu.classList.add('setTransform');
+    //         content.classList.add('setmagrin29');
+    //    }
+    //    $('.nav-toggle').click(function(e){
+    //        hideMenu();
+    //    })
+    //    menu.addEventListener('click',function(event){
+    //         event.stopPropagation()
+    //    })
+    const table = document.getElementById('tbl');
+
+        getDatAPI();
+        async function getDatAPI(){
+        const dataAPI = await fetch('https://64583ae61a4c152cf9937c0c.mockapi.io/api/v1/WebTicket');
+        const data = await dataAPI.json();
+        console.log('data:>>',data);
+        // table.innerHTML='';
+        data.forEach(data => {
+            const trItem = document.createElement('tr');
+            trItem.innerHTML = `
+                                <td class="align-middle">
+                                    <div class="d-flex align-items-center">
+                                        <div class="">
+                                            <img src="${data.avatar}" alt="" class="singer-img">
+                                        </div>
+                                        <div class="Rickey-name">
+                                            <h5 class="name-singer">
+                                                <a href="">${data.name}</a>
+                                            </h5>
+                                         </div>
+                                        </div>
+                                </td>
+                                <td class="align-middle">${data.email}</td>
+                                <td class="align-middle">${data.date}</td>
+                                <td class="align-middle">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </td>
+                                `;
+                                table.appendChild(trItem);
+        })
+    }
+    </script>
 </body>
 </html>
