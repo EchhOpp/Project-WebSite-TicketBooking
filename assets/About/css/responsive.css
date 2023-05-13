@@ -1,0 +1,117 @@
+/* TV >= 1920*/
+.getticket {
+    margin: auto;
+ }
+
+ @media(min-width: 1920px) {
+
+ }
+ 
+ /* 1224 <= LAPTOP < 1920*/
+ @media(min-width:  76.5em) and (max-width: 120em){
+
+ }
+ 
+ /* 1024 <= TABLET PRO < 1224*/
+@media(min-width: 64em) and (max-width: 76.4375em) {
+    .header__nav {
+        margin: 10px 65px;
+    }
+    #container {
+        margin: 65px 65px 0 65px;
+    }
+    .footer_top {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    .footer_infortable th, td {
+        padding: 10px 24px;
+    }
+    .footer_inforSocial {
+        width: 36%;
+    }
+}
+ 
+ /* 600 <= TABLE < 1024*/
+ @media(min-width: 37.5375em) and (max-width: 63.9375em) {
+    .word {
+        height: 42px;
+        width: 55px;
+    }
+    .header__nav {
+        margin: 10px 44px;
+    }
+    /*  */
+    #container {
+        margin: 44px 44px 0 44px;
+    }
+    .ct-title {
+        margin: 10px 0;
+        font-size: 3.2rem;
+    }
+    .ct-tickred {
+        margin-top: 9px;
+    }
+    .ct-tick {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+    .font-size2rem {
+        font-size: 2rem;
+    }
+    .font-size17rem {
+        font-size: 1.45rem;
+    }
+    .ct-profile:hover>.ct-prlist::before {
+        width: 90%;
+    }
+    .ct-prlist::before {
+        left: 5%;
+    }
+    .footer_infortable th, td {
+        padding: 5px 28px;
+    }
+    .footer_inforSocial {
+        padding-left: 38px;
+    }
+    .footer_bottom {
+        margin: 44px 44px 0 44px;
+    }
+}
+ /* Table and mobile*/
+ 
+ @media(min-width: 48em) and (max-width: 63.9375em) { 
+
+ }
+ 
+ /*  MOBILE < 600*/
+ @media (max-width: 37.5em) {
+
+ }
+ 
+ 
+ /* NAV */
+ @media (max-width: 48em) {
+    
+    #menu-moblie {
+        display: block;
+    }
+    .nav-open:checked ~ .nav-overlay {
+        display: block;
+    }
+
+    .nav-open:checked ~ .header__navbar-repo {
+        transform: translateX(0%);
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__nav{
+        top: 24px;
+        left: 12px;
+        right: 12px;
+    }
+    .nav-bar-btn{
+       display: block;
+    }
+ }
