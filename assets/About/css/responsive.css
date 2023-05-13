@@ -86,7 +86,40 @@
  
  /*  MOBILE < 600*/
  @media (max-width: 37.5em) {
-
+    .header__nav {
+        align-items: center;
+    }
+    #container {
+        margin: 20px 20px 0 20px;
+    }
+    .container-texthistory  {
+        margin-top: 20px;
+    }
+    .footer_infortable th, td {
+        padding: 10px 28px;
+        font-size: 1.2rem;
+    }
+    .footer_top {
+        margin-right: 10px;
+        margin-left: 20px;
+        display: block;
+    }
+    .footer_inforSocial {
+        width: 100%;
+    }
+    .word {
+        height: 60px;
+        width: 79px;
+    }
+    .img__social {
+        height: 24px;
+    }
+    .footer_inforSocial {
+        align-items: center;
+    }
+    .footer_bottom {
+        margin: 20px 20px 0 20px
+    }
  }
  
  
