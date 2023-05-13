@@ -1,0 +1,151 @@
+/* TV >= 1920*/
+ @media(min-width: 1920px) {
+
+ }
+ 
+ /* 1224 <= LAPTOP < 1920*/
+ @media(min-width:  76.5em) and (max-width: 120em){
+
+ }
+ 
+ /* 1024 <= TABLET PRO < 1224*/
+@media(min-width: 64em) and (max-width: 76.4375em) {
+    .header__nav {
+        margin: 10px 65px;
+    }
+    .footer_top {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    .container_login {
+        margin: 50px 100px;
+    }
+    .footer_infortable th, td {
+        padding: 10px 24px;
+    }
+    .footer_inforSocial {
+        width: 36%;
+    }
+    .footer_bottom {
+        margin: 60px 60px 0 60px;
+    }
+}
+ 
+ /* 600 <= TABLE < 1024*/
+ @media(min-width: 37.5em) and (max-width: 63.9375em) {
+    .header__nav {
+        margin: 10px 26px;
+    }
+    .header__nav-list {
+        padding: 24px 0 0 26px;
+    }
+    .container_login {
+        margin: 24px 24px;
+    }
+    .form-inline .input-group .form-control, .form-inline .input-group {
+        width: 100%;
+    }
+    #write_login {
+        width: 100%;
+    }
+
+    /*  */
+    .footer_top {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .footer_infortable th, td {
+        padding: 10px 9px;
+        font-size: 1.15rem;
+    }
+
+    .font-size22px {
+        font-size: 1.15rem;
+    }
+    
+    .footer_inforSocial {
+        width: 30%;
+    }
+
+    .word {
+        height: 50px;
+        width: 69px;
+    }
+    }
+
+    .img__social {
+        height: 20px;
+    }
+
+    .footer_bottom {
+        margin: 36px;
+    }
+
+    #footer {
+       
+}
+ /* Table and mobile*/
+ 
+ @media(min-width: 48em) and (max-width: 63.9375em) { 
+ }
+ 
+ /*  MOBILE < 600*/
+ @media (max-width: 37.4975em) {
+    .container_login {
+        margin: 24px 24px;
+    }
+    .footer_infortable th, td {
+        padding: 10px 28px;
+        font-size: 1.2rem;
+    }
+    .footer_top {
+        margin-right: 10px;
+        margin-left: 20px;
+        display: block;
+    }
+    .footer_inforSocial {
+        width: 100%;
+    }
+    .word {
+        height: 60px;
+        width: 79px;
+    }
+    .img__social {
+        height: 24px;
+    }
+    .footer_inforSocial {
+        align-items: center;
+    }
+    .footer_bottom {
+        margin: 20px 20px 0 20px
+    }
+ }
+ 
+ 
+ /* NAV */
+ @media (max-width: 48em) {
+
+    #menu-moblie {
+        display: block;
+    }
+    .nav-open:checked ~ .nav-overlay {
+        display: block;
+    }
+
+    .nav-open:checked ~ .header__navbar-repo {
+        transform: translateX(0%);
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__nav {
+        margin: 10px 50px;
+    }
+    .nav-open {
+        display: none;
+    }
+    .ct-form-submit {
+        width: 100%;
+    }
+ }
