@@ -1,0 +1,108 @@
+/* TV >= 1920*/
+@media(min-width: 1920px) {
+
+}
+
+/* 1224 <= LAPTOP < 1920*/
+@media(min-width:  76.5em) and (max-width: 120em){
+
+}
+
+/* 1024 <= TABLET PRO < 1224*/
+@media(min-width: 64em) and (max-width: 76.4375em) {
+    .header__nav {
+        right: 40px;
+        left: 40px;
+    }
+    .header_schedule_button>button {
+        font-size: 1.6rem;
+        padding: 12px 44px;
+    }
+    .header_info1 {
+        font-size: 2.4rem;
+    }
+    .header_info_tt {
+        font-size: 1.25rem;
+    }
+    #month {
+        font-size: 2rem;
+    }
+    #number_day {
+        font-size: 4rem;
+    }
+    #day {
+        font-size: 2rem;
+    }
+    .background_header {
+        height: 268px;
+    }
+    /*  */
+    .container__product-item--buy {
+        display: block;
+    }
+    .button__buyticket {
+        width: 100%;
+    }
+    .container__product-item--buy_price {
+        text-align: right;
+        padding-top: 12px;
+    }
+    .container__product-item--favourite {
+        top: 30%;
+    }
+    .btn-ContactUs {
+        padding: 10px 28px;
+        right: 80px;
+    }
+    .font-sizebig40 {
+        font-size: 1.7rem;
+    }
+    .footer_infortable th, td {
+        padding: 10px 24px;
+    }
+    .footer_top {
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .footer_bottom {
+        margin: 50px 130px 0 130px;
+    }
+}
+
+/* 600 <= TABLE < 1024*/
+@media(min-width: 37.5em) and (max-width: 63.9375em) {
+
+}
+/* Table and mobile*/
+
+@media(min-width: 48em) and (max-width: 63.9375em) { 
+}
+
+/*  MOBILE < 600*/
+@media (max-width: 37.4975em) {
+
+}
+
+
+/* NAV */
+@media (max-width: 48em) {
+   #menu-moblie {
+       display: block;
+   }
+   .nav-open:checked ~ .nav-overlay {
+       display: block;
+   }
+
+   .nav-open:checked ~ .header__navbar-repo {
+       transform: translateX(0%);
+   }
+   .header__navbar {
+       display: none;
+   }
+   .header__nav {
+       margin: 10px 50px;
+   }
+   .nav-open {
+       display: none;
+   }
+}
