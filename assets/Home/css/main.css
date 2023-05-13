@@ -5,6 +5,9 @@
 #header{
     position: relative;
 }
+#search-header {
+    display: none;
+}
 .header__nav {
     position: absolute;
     top: 21px;
@@ -12,7 +15,7 @@
     left: 130px;
     z-index: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;align-items: center;
 }
 
 .header__navbar {
@@ -62,6 +65,7 @@
     text-align: center;
     left: 50%;
     transform: translateX(-50%); 
+    width: 100%;
 }
 
 #header__navtitle-textheading {
